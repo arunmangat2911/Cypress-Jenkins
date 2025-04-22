@@ -1,0 +1,12 @@
+{
+    "data": {
+        "empNumber": 7,
+        "lastName": "LoginLastName",
+        "firstName": "LoginFirstName",
+        "middleName": "NicknameTest",
+        "employeeId": "Employee",
+        "terminationId": null
+    },
+    "meta": [],
+    "rels": []
+}

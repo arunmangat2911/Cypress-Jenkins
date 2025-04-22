@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "location": {
+                "id": 5,
+                "name": "ArunTest"
+            },
+            "count": 4
+        },
+        {
+            "location": {
+                "id": 2,
+                "name": "LocationNew"
+            },
+            "count": 2
+        }
+    ],
+    "meta": {
+        "otherEmployeeCount": 0,
+        "unassignedEmployeeCount": 157,
+        "totalLocationCount": 2
+    },
+    "rels": []
+}
+

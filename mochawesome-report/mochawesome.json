@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-02-24T13:37:28.047Z",
+    "end": "2025-02-24T13:37:30.046Z",
+    "duration": 1999,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "49edf050-6538-49f8-8da1-46521076ff62",
+      "title": "",
+      "fullFile": "cypress/e2e/smokeTest/smokeScript.spec.cy.js",
+      "file": "cypress/e2e/smokeTest/smokeScript.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6a54674d-f5ac-4dad-818d-7c08c6c613d1",
+          "title": "Login Functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login Test using Conduit",
+              "fullTitle": "Login Functionality Login Test using Conduit",
+              "timedOut": null,
+              "duration": 1336,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.saucedemo.com/');\ncy.get('input[id=\"user-name\"]').type('standard_user');\ncy.get('input[id=\"password\"]').type('secret_sauce');\ncy.get('input[id=\"login-button\"]').click();\ncy.get('button[id=\"react-burger-menu-btn\"]').click();\ncy.get('a[id=\"logout_sidebar_link\"]').click();",
+              "err": {},
+              "uuid": "b2d87783-ee08-4d4b-9c74-20dfbe1ff2a9",
+              "parentUUID": "6a54674d-f5ac-4dad-818d-7c08c6c613d1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b2d87783-ee08-4d4b-9c74-20dfbe1ff2a9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1336,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+          "reportDir": "cypress/reports/mocha",
+          "quiet": true,
+          "overwrite": false,
+          "html": false,
+          "json": true
+        }
+      },
+      "version": "6.2.0"
+    }
+  }
+}
